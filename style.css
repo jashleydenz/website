@@ -1,0 +1,72 @@
+.avatar{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    width: 50%;
+}
+
+.hr1{
+    width: 50%;
+    height: 2px;
+    background-color: darkgray;
+}
+
+.name1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+}
+
+.container{
+    display: flex;
+    margin-left: 25%;
+}
+
+.box{
+    width: 32%;
+}
+
+.box1{   
+    width: 35%;
+}
+
+
+.name2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+
+    .avatar {
+        height: 150px;  /* Adjusted height for mobile */
+        border-radius: 50%;
+    }
+    
+    .name, .name1, .name2 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    hr, .hr1 {
+        width: 80%;  /* Increased width for mobile */
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;  /* Changed flex direction for mobile */
+        align-items: center;  /* Centered content for mobile */
+        margin-left: 0;  /* Removed left margin for mobile */
+    }
+    
+    .box, .box1 {
+        width: 100%;  /* Full width for mobile */
+    }
+    
+    .name1 {
+        margin-left: 0;  /* Removed left margin for mobile */
+    }
+}
